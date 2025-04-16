@@ -26,7 +26,7 @@ class _MyAppState extends State<MyApp> {
               OutlinedButton(
                 onPressed: () {
                   TenjinPlugin.instance.init(
-                    apiKey: 'BKTTLUYVFBUES2JX9ZJBQMVIDHMIJHJC',
+                    apiKey: '<API_KEY>',
                   );
                 },
                 child: Text('Init Sdk'),
